@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script type="text/javascript">
+            var data1='{"Subject":"NGT","Practical":10}';
+            var docx=JSON.parse(data1);
+            for(key in docx)
+            {
+                document.writeln(key+" :"+docx[key]+"<br/>");
+            }
+        </script>
+    </body>
+</html>

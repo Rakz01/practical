@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Creating JSON</title>
+</head>
+<body>
+<script type="text/javascript">
+var data={
+"Name":"Raksha Pawar",
+"Roll No":229714,
+"Class":"TYIT",
+"Div":"B"
+};
+document.writeln(JSON.stringify(data)+"<br/>");
+document.writeln(JSON.stringify(data,["Name","Roll No","Class"])+"<br/>");
+document.writeln(JSON.stringify(data,["Name","Roll No","Class"],5));
+</script>
+</body>
+</html>
